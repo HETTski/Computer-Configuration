@@ -1,0 +1,117 @@
+
+
+:root{
+  --body_background:#4f5666
+  --text_color: white;
+}
+
+[data-theme="dark"]{
+  --body_background: #4f5666;
+  --text_color: white;
+}
+[data-theme="light"]{
+  --body_background: white;
+  --text_color: #4f5666;
+}
+
+* {
+  transition: all 0.1s ease-in-out;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: var(--body_background);
+  color: var(--text_color);
+  
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+  color: #F9F7C9;
+}
+
+
+.App {
+  display: inline-block; /* Ensures that the border size depends on the text size */
+  margin: 0;
+  padding: 1rem;
+  color: #F9F7C9;
+  border: 3px solid #fffce1; /* Light yellow border color */
+  background-color: #487593;
+}
+
+.nav{
+  background-color: #282c34;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 2rem;
+  padding: 1rem 2rem;
+}
+
+.nav ul{
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  display: flex;
+  gap: 1rem;
+}
+
+.nav a{
+  color: inherit;
+  text-decoration: none;
+}
+.Informations{
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  gap: rem;
+  padding: 1rem;
+  gap: 1rem;
+  margin-left: 2rem;
+
+}
+.Processor{
+  background-image: url('imgs/processor.png');
+  background-size: 30rem; /* You can adjust this property based on your needs */
+  background-position: center right; /* You can adjust this property based on your needs */
+  background-repeat: no-repeat;
+  height: 40rem; /* Set the height of the div based on your needs */
+}
+.Configuration{
+  background-image: url('imgs/motherboard.png');
+  background-size: 25rem; /* You can adjust this property based on your needs */
+  background-position: center right; /* You can adjust this property based on your needs */
+  background-repeat: no-repeat;
+  height: 40rem; /* Set the height of the div based on your needs */
+}
+
+.Software{
+  background-image: url('imgs/user-experience.png');
+  background-size: 25rem; /* You can adjust this property based on your needs */
+  background-position: center right; /* You can adjust this property based on your needs */
+  background-repeat: no-repeat;
+  height: 40rem; /* Set the height of the div based on your needs */
+
+}
+.OperatingSystem{
+  background-image: url('imgs/operating-system.png');
+  background-size: 25rem; /* You can adjust this property based on your needs */
+  background-position: center right; /* You can adjust this property based on your needs */
+  background-repeat: no-repeat;
+  height: 40rem; /* Set the height of the div based on your needs */
+}
+h1 {
+  text-align: center;
+}
+p{
+  margin-left: 1rem;
+  
+}
